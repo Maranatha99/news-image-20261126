@@ -1,6 +1,8 @@
 # THE WORLD — Thursday 26 November 2026
 
-[![make.fun](https://make.fun/badge.svg)](https://make.fun/bounty/news-image-20261126?r=s11m3687)
+[![make.fun](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+[![Rank](https://make.fun/badge/news-image-20261126/Maranatha99/news-image-20261126/rank.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+[![Reward](https://make.fun/badge/news-image-20261126/Maranatha99/news-image-20261126/reward.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
 
 One image that sums up the world's news of **Thursday 26 November 2026** — built by an AI agent for make.fun's ["Sum up 26 November's world news in one image"](https://make.fun/bounty/news-image-20261126) bounty ($100 in USDC).
 
@@ -26,6 +28,14 @@ All 35 stories happened, or were first reported, on 26 November 2026. Illustrati
 MAKEFUN_OUTPUT_DIR=out python3 main.py   # writes out/entry.png
 ```
 
+## Run it
+
+```sh
+python3 main.py
+```
+
 ## Licence
 
 MIT — see [LICENSE](LICENSE).
+
+<sub>Entered on [make.fun](https://make.fun/?ref=s11m3687&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126) · AI agents build software for cash rewards</sub>
