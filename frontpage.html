@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>THE WORLD — Thursday 26 November 2026</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { width:1024px; height:1024px; background:#fdf8ec; color:#191919;
+    font-family:Arial,Helvetica,sans-serif; overflow:hidden; }
+  .page { width:1024px; height:1024px; padding:10px 18px 6px; }
+  /* ---------- masthead ---------- */
+  .mast { text-align:center; border-bottom:4px solid #191919; padding-bottom:6px; }
+  .mast .kicker { font-size:10.5px; letter-spacing:4px; font-weight:bold; color:#8a6d1b; }
+  .mast h1 { font-family:Georgia,'Times New Roman',serif; font-size:48px; line-height:1;
+    letter-spacing:6px; font-weight:900; }
+  .mast .dateline { font-size:13px; margin-top:3px; }
+  .mast .dateline b { color:#b3261e; }
+  /* ---------- big numbers ---------- */
+  .stats { display:flex; border-bottom:2px solid #191919; }
+  .stat { flex:1; text-align:center; padding:4px 4px 3px; border-right:1px solid #c9bfa5; }
+  .stat:last-child { border-right:none; }
+  .stat .num { font-family:Georgia,serif; font-size:21px; font-weight:900; color:#b3261e; }
+  .stat .lbl { font-size:10px; letter-spacing:1px; font-weight:bold; margin-top:1px; }
+  /* ---------- lead story ---------- */
+  .lead { display:flex; gap:14px; padding:6px 0 5px; border-bottom:2px solid #191919; }
+  .lead .art { width:300px; height:108px; flex:none; border:2px solid #191919; background:#ffe9c9; }
+  .lead .txt { flex:1; }
+  .num-badge { display:inline-block; background:#b3261e; color:#fff; font-weight:900;
+    font-size:15px; width:24px; height:24px; line-height:24px; text-align:center; border-radius:50%; }
+  .lead h2 { font-family:Georgia,serif; font-size:24px; line-height:1.08; margin:3px 0 3px; }
+  .lead p { font-size:12.5px; line-height:1.3; }
+  .src { font-size:10px; font-weight:bold; letter-spacing:1px; color:#5a5a5a; margin-top:4px; }
+  .tag { font-size:10px; font-weight:bold; letter-spacing:1.5px; color:#b3261e; }
+  /* ---------- story grid ---------- */
+  .grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:0; border-bottom:2px solid #191919; }
+  .cell { display:flex; gap:8px; padding:4px 8px 3px 0; border-right:1px solid #d8cdb2;
+    border-bottom:1px solid #d8cdb2; }
+  .cell:nth-child(3n) { border-right:none; padding-right:0; }
+  .cell:nth-child(n+10) { border-bottom:none; }
+  .cell .art { width:60px; height:60px; flex:none; border:1.5px solid #191919; }
+  .cell h3 { font-family:Georgia,serif; font-size:13.5px; line-height:1.12; margin:2px 0 2px; }
+  .cell p { font-size:10.5px; line-height:1.22; }
+  .cell .src { margin-top:2px; }
+  .cell .num-badge { width:19px; height:19px; line-height:19px; font-size:12px; }
+  /* ---------- map + date check ---------- */
+  .mid { display:flex; gap:14px; padding:5px 0 5px; border-bottom:2px solid #191919; }
+  .mapbox { flex:1; }
+  .mapbox h4, .datecheck h4 { font-size:12px; letter-spacing:2px; margin-bottom:4px; }
+  .mapbox h4 span, .datecheck h4 span { color:#b3261e; }
+  .map { width:100%; height:96px; border:2px solid #191919; background:#cfe8f5; display:block; }
+  .datecheck { width:300px; flex:none; background:#f3e3c8; border:2px solid #191919; padding:7px 9px; }
+  .datecheck p { font-size:11.5px; line-height:1.4; margin-top:3px; }
+  .datecheck b { color:#b3261e; }
+  /* ---------- briefs ---------- */
+  .briefs { padding:4px 0 3px; border-bottom:2px solid #191919; }
+  .briefs h4 { font-size:12px; letter-spacing:2px; margin-bottom:3px; }
+  .briefs h4 span { color:#b3261e; }
+  .cols { display:flex; gap:18px; }
+  .cols ul { flex:1; list-style:none; }
+  .cols li { font-size:10.8px; line-height:1.16; padding:0; }
+  .cols li b { color:#b3261e; }
+  /* ---------- footer ---------- */
+  .foot { padding-top:2px; font-size:9px; color:#555; text-align:center; line-height:1.3; }
+  .foot b { color:#191919; }
+</style></head>
+<body><div class="page">
+
+  <div class="mast">
+    <div class="kicker">MAKE.FUN DAILY FRONT PAGE &nbsp;•&nbsp; ONE DAY, ONE IMAGE</div>
+    <h1>THE WORLD</h1>
+    <div class="dateline">The front page of <b>Thursday 26 November 2026</b> &nbsp;•&nbsp; Every story below happened, or was first reported, on this day</div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="num">$94.61</div><div class="lbl">BRENT CRUDE, +3.5% IN A DAY</div></div>
+    <div class="stat"><div class="num">19 KILLED</div><div class="lbl">DRONE STRIKES, SUDAN</div></div>
+    <div class="stat"><div class="num">30 KILLED</div><div class="lbl">TANKER FIRE NEAR CAIRO</div></div>
+    <div class="stat"><div class="num">+36%</div><div class="lbl">BANGLADESH GARMENT WAGE</div></div>
+  </div>
+
+  <div class="lead">
+    <svg class="art" viewBox="0 0 300 108" xmlns="http://www.w3.org/2000/svg">
+      <rect width="300" height="108" fill="#ffe9c9"/>
+      <circle cx="252" cy="30" r="18" fill="#f5b942"/>
+      <rect x="20" y="95" width="260" height="12" fill="#8a6d3b"/>
+      <rect x="40" y="55" width="26" height="42" fill="#c0392b"/><rect x="40" y="48" width="26" height="8" fill="#7b241c"/>
+      <rect x="76" y="40" width="26" height="57" fill="#e67e22"/><rect x="76" y="33" width="26" height="8" fill="#935116"/>
+      <rect x="112" y="65" width="60" height="32" fill="#2e86c1"/>
+      <circle cx="142" cy="81" r="10" fill="#fdf8ec"/>
+      <path d="M200 97 L200 45 L214 45 L214 97 Z" fill="#7d3c98"/>
+      <path d="M222 97 L222 60 L236 60 L236 97 Z" fill="#7d3c98"/>
+      <path d="M207 14 Q217 28 214 40 Q207 46 200 40 Q197 28 207 14 Z" fill="#f39c12"/>
+      <path d="M207 26 Q212 34 210 40 Q207 43 204 40 Q202 34 207 26 Z" fill="#e74c3c"/>
+      <rect x="248" y="80" width="34" height="17" fill="#27ae60"/><text x="265" y="92" font-size="9" text-anchor="middle" fill="#fff" font-weight="bold">OIL</text>
+    </svg>
+    <div class="txt">
+      <span class="tag">MIDDLE EAST &nbsp;•&nbsp; ENERGY</span>
+      <h2><span class="num-badge">1</span> Houthis claim strike on Saudi Arabia&rsquo;s biggest refinery; oil jumps</h2>
+      <p>Yemen&rsquo;s Houthis say they hit the Ras Tanura refinery and Riyadh&rsquo;s financial district. Saudi defences say they shot down four drones; Brent crude settles above $94 a barrel.</p>
+      <div class="src">REUTERS &nbsp;•&nbsp; RAS TANURA, SAUDI ARABIA</div>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="cell">
+      <svg class="art" viewBox="0 0 72 72"><rect width="72" height="72" fill="#d5e8f7"/><rect x="8" y="44" width="56" height="14" fill="#1f4e79"/><rect x="14" y="30" width="12" height="14" fill="#e67e22"/><rect x="30" y="24" width="12" height="20" fill="#c0392b"/><rect x="46" y="32" width="12" height="12" fill="#27ae60"/><text x="36" y="18" font-size="15" text-anchor="middle" font-weight="bold" fill="#191919">15%</text></svg>
+      <div><span class="tag">TRADE</span>
+      <h3><span class="num-badge">2</span> US proposes new tariffs on 14 partners</h3>
+      <p>Washington targets &ldquo;overcapacity&rdquo;; Taiwan faces up to 15%. Markets slide in Asia.</p>
+      <div class="src">REUTERS</div></div>
+    </div>
+    <div class="cell">
+      <svg class="art" viewBox="0 0 72 72"><rect width="72" height="72" fill="#f9d5d3"/><path d="M36 8 L44 30 L62 32 L48 44 L52 62 L36 52 L20 62 L24 44 L10 32 L28 30 Z" fill="#f5b942"/><circle cx="36" cy="36" r="9" fill="#b3261e"/><circle cx="36" cy="36" r="4" fill="#fff"/></svg>
+      <div><span class="tag">SECURITY</span>
+      <h3><span class="num-badge">3</span> Kim orders wider nuclear deployment</h3>
+      <p>North Korea&rsquo;s leader calls for tactical nuclear weapons across more domains, KCNA reports.</p>
+      <div class="src">KCNA / REUTERS</div></div>
+    </div>
+    <div class="cell">
+      <svg class="art" viewBox="0 0 72 72"><rect width="72" height="72" fill="#dfe9f7"/><circle cx="36" cy="34" r="22" fill="#2e86c1"/><circle cx="36" cy="34" r="17" fill="#7fb3d5"/><circle cx="36" cy="30" r="9" fill="#fdf8ec"/><rect x="33" y="52" width="6" height="12" fill="#e67e22"/><path d="M20 60 L52 60 L46 68 L26 68 Z" fill="#c0392b"/></svg>
+      <div><span class="tag">SPACE</span>
+      <h3><span class="num-badge">4</span> First Pakistani astronaut heads to Tiangong</h3>
+      <p>Muhammad Zeeshan Ali joins China&rsquo;s Shenzhou-24 mission to its space station.</p>
+      <div class="src">AP / AFP</div></div>
+    </div>
+    <div class="cell">
+      <svg class="art" viewBox="0 0 72 72"><rect width="72" height="72" fill="#f2e3c9"/><rect x="10" y="34" width="18" height="30" fill="#7d6608"/><rect x="32" y="22" width="18" height="42" fill="#935116"/><rect x="54" y="40" width="10" height="24" fill="#5d4037"/><path d="M36 8 Q44 20 36 30 Q28 20 36 8" fill="#e74c3c"/><path d="M14 18 Q20 26 14 32" stroke="#e74c3c" stroke-width="3" fill="none"/></svg>
+      <div><span class="tag">GAZA</span>
+      <h3><span class="num-badge">5</span> Israel strikes Hamas official in Gaza</h3>
+      <p>A senior Hamas figure and his family are killed; the fragile ceasefire is under strain.</p>
+      <div class="src">REUTERS</div></div>
+    </div>
+    <div class="cell">
+      <svg class="art" viewBox="0 0 72 72"><rect width="72" height="72" fill="#d5f0e0"/><path d="M8 46 L30 40 L52 30 L64 26 L58 34 L44 44 L20 52 Z" fill="#5d6d7e"/><path d="M52 30 L64 26 L60 36 Z" fill="#2c3e50"/><circle cx="18" cy="50" r="4" fill="#191919"/><circle cx="58" cy="52" r="3" fill="#b3261e"/><text x="36" y="15" font-size="11" font-weight="bold" fill="#191919" text-anchor="middle">5 JETS HIT</text></svg>
+      <div><span class="tag">UKRAINE</span>
+      <h3><span class="num-badge">6</span> Ukraine says it hit Russian air base</h3>
+      <p>Kyiv claims a strike on a major Russian air base damaged five planes.</p>
+      <div class="src">REUTERS</div></div>
+    </div>
+    <div class="cell">
+      <svg class="art" viewBox="0 0 72 72"><rect width="72" height="72" fill="#fdebd0"/><circle cx="36" cy="26" r="12" fill="#5d6d7e"/><rect x="30" y="26" width="12" height="5" fill="#2c3e50"/><circle cx="28" cy="24" r="2" fill="#e74c3c"/><circle cx="44" cy="24" r="2" fill="#e74c3c"/><path d="M18 52 L54 52 L50 62 L22 62 Z" fill="#935116"/><text x="36" y="67" font-size="7" font-weight="bold" fill="#191919" text-anchor="middle">BLUE NILE</text></svg>
+      <div><span class="tag">SUDAN</span>
+      <h3><span class="num-badge">7</span> Drone strikes kill 19 civilians in Sudan</h3>
+      <p>Strikes hit Blue Nile state as the country&rsquo;s war grinds on, medics and witnesses say.</p>
+      <div class="src">REUTERS</div></div>
+    </div>
+    <div class="cell">
+      <svg class="art" viewBox="0 0 72 72"><rect width="72" height="72" fill="#e8f8f5"/><path d="M18 20 L54 20 L54 34 L44 44 L44 58 L28 58 L28 44 L18 34 Z" fill="#1abc9c"/><circle cx="36" cy="27" r="5" fill="#fdf8ec"/><rect x="30" y="50" width="12" height="4" fill="#117864"/><text x="36" y="66" font-size="8" font-weight="bold" fill="#191919" text-anchor="middle">+36% PAY</text></svg>
+      <div><span class="tag">LABOUR</span>
+      <h3><span class="num-badge">8</span> Bangladesh raises garment wage 36%</h3>
+      <p>Dhaka lifts the minimum monthly wage for entry-level garment workers.</p>
+      <div class="src">AFP</div></div>
+    </div>
+    <div class="cell">
+      <svg class="art" viewBox="0 0 72 72"><rect width="72" height="72" fill="#fadbd8"/><rect x="10" y="40" width="40" height="12" fill="#e67e22"/><circle cx="18" cy="54" r="6" fill="#191919"/><circle cx="42" cy="54" r="6" fill="#191919"/><path d="M52 26 Q58 36 54 44 Q48 36 52 26" fill="#f39c12"/><path d="M58 30 Q62 38 58 46" stroke="#e74c3c" stroke-width="3" fill="none"/></svg>
+      <div><span class="tag">EGYPT</span>
+      <h3><span class="num-badge">9</span> Cairo tanker crash fire kills at least 30</h3>
+      <p>A fuel tanker crashes and ignites a huge fire on a highway ringing the capital.</p>
+      <div class="src">AP</div></div>
+    </div>
+    <div class="cell">
+      <svg class="art" viewBox="0 0 72 72"><rect width="72" height="72" fill="#f9e79f"/><path d="M12 56 L12 30 Q36 12 60 30 L60 56 Z" fill="#b7950b"/><rect x="30" y="40" width="12" height="16" fill="#7d6608"/><path d="M36 18 L36 8" stroke="#e74c3c" stroke-width="3"/><circle cx="36" cy="6" r="3" fill="#e74c3c"/><text x="36" y="68" font-size="8" font-weight="bold" fill="#191919" text-anchor="middle">26/11 • 18 YRS</text></svg>
+      <div><span class="tag">INDIA</span>
+      <h3><span class="num-badge">10</span> India marks 18 years since 26/11 attacks</h3>
+      <p>Mumbai remembers the 2008 siege on its anniversary; India also marks Constitution Day.</p>
+      <div class="src">AFP</div></div>
+    </div>
+    <div class="cell">
+      <svg class="art" viewBox="0 0 72 72"><rect width="72" height="72" fill="#eaf2f8"/><path d="M36 10 L36 58" stroke="#5d6d7e" stroke-width="4"/><path d="M18 22 L54 22" stroke="#5d6d7e" stroke-width="4"/><path d="M18 22 Q12 40 20 44 Q26 40 22 22" fill="#f5b942"/><path d="M54 22 Q60 40 52 44 Q46 40 50 22" fill="#f5b942"/><rect x="30" y="58" width="12" height="6" fill="#5d6d7e"/></svg>
+      <div><span class="tag">S. AFRICA</span>
+      <h3><span class="num-badge">11</span> Court backs Ramaphosa in cash-theft case</h3>
+      <p>A South African court rules for the president over the Phala Phala cash-theft probe.</p>
+      <div class="src">REUTERS</div></div>
+    </div>
+    <div class="cell">
+      <svg class="art" viewBox="0 0 72 72"><rect width="72" height="72" fill="#f4ecf7"/><path d="M22 52 L46 20 L54 26 L32 56 Z" fill="#8e44ad"/><circle cx="50" cy="18" r="5" fill="#191919"/><rect x="18" y="52" width="30" height="5" fill="#5d6d7e"/><circle cx="26" cy="34" r="3" fill="#f5b942"/><circle cx="34" cy="42" r="3" fill="#f5b942"/></svg>
+      <div><span class="tag">MUSIC</span>
+      <h3><span class="num-badge">12</span> Duran Duran guitarist Andy Taylor dies at 65</h3>
+      <p>The new-wave band&rsquo;s guitarist, who played on its biggest hits, dies aged 65.</p>
+      <div class="src">AP</div></div>
+    </div>
+    <div class="cell">
+      <svg class="art" viewBox="0 0 72 72"><rect width="72" height="72" fill="#d6eaf8"/><rect x="8" y="48" width="56" height="6" fill="#5d6d7e"/><path d="M16 48 L40 38 L58 38 L52 48 Z" fill="#2e86c1"/><rect x="38" y="30" width="4" height="10" fill="#2e86c1"/><path d="M42 28 L56 32 L42 36 Z" fill="#fdf8ec"/><text x="36" y="64" font-size="8" font-weight="bold" fill="#191919" text-anchor="middle">2ND AIRPORT</text></svg>
+      <div><span class="tag">LEBANON</span>
+      <h3><span class="num-badge">13</span> Lebanon to open a second airport</h3>
+      <p>A new international airport for the north is planned for next month, Beirut says.</p>
+      <div class="src">REUTERS</div></div>
+    </div>
+  </div>
+
+  <div class="mid">
+    <div class="mapbox">
+      <h4>WHERE IT HAPPENED <span>— THE 13 LEAD STORIES, PINNED</span></h4>
+      <svg class="map" viewBox="0 0 660 132" xmlns="http://www.w3.org/2000/svg">
+        <rect width="660" height="132" fill="#cfe8f5"/>
+        <g fill="#f7e8c9" stroke="#8a6d3b" stroke-width="1.5">
+          <path d="M18 18 L60 10 L110 14 L150 26 L165 40 L140 52 L120 48 L110 66 L90 70 L70 60 L45 55 L22 40 Z"/>
+          <path d="M150 6 L175 4 L180 14 L158 16 Z"/>
+          <path d="M168 78 L205 74 L225 88 L215 110 L195 126 L180 108 L168 92 Z"/>
+          <path d="M300 14 L330 8 L352 16 L348 30 L330 34 L312 30 L298 22 Z"/>
+          <path d="M300 44 L340 38 L375 44 L385 60 L372 88 L350 104 L325 96 L305 70 L296 52 Z"/>
+          <path d="M360 12 L430 8 L500 14 L545 26 L560 44 L530 58 L480 62 L440 56 L410 60 L385 48 L365 30 Z"/>
+          <path d="M520 96 L575 92 L600 104 L580 120 L535 118 Z"/>
+        </g>
+        <g font-family="Arial,sans-serif" font-size="8.5" font-weight="bold" text-anchor="middle">
+          <circle cx="120" cy="45" r="7.5" fill="#b3261e"/><text x="120" y="48" fill="#fff">2</text>
+          <circle cx="305" cy="18" r="7.5" fill="#b3261e"/><text x="305" y="21" fill="#fff">12</text>
+          <circle cx="350" cy="25" r="7.5" fill="#b3261e"/><text x="350" y="28" fill="#fff">6</text>
+          <circle cx="378" cy="40" r="7.5" fill="#b3261e"/><text x="378" y="43" fill="#fff">13</text>
+          <circle cx="372" cy="52" r="7.5" fill="#b3261e"/><text x="372" y="55" fill="#fff">5</text>
+          <circle cx="398" cy="58" r="7.5" fill="#b3261e"/><text x="398" y="61" fill="#fff">1</text>
+          <circle cx="360" cy="62" r="7.5" fill="#b3261e"/><text x="360" y="65" fill="#fff">9</text>
+          <circle cx="348" cy="80" r="7.5" fill="#b3261e"/><text x="348" y="83" fill="#fff">7</text>
+          <circle cx="345" cy="106" r="7.5" fill="#b3261e"/><text x="345" y="109" fill="#fff">11</text>
+          <circle cx="450" cy="62" r="7.5" fill="#b3261e"/><text x="450" y="65" fill="#fff">10</text>
+          <circle cx="466" cy="52" r="7.5" fill="#b3261e"/><text x="466" y="55" fill="#fff">8</text>
+          <circle cx="486" cy="46" r="7.5" fill="#b3261e"/><text x="486" y="49" fill="#fff">4</text>
+          <circle cx="524" cy="38" r="7.5" fill="#b3261e"/><text x="524" y="41" fill="#fff">3</text>
+        </g>
+        <text x="8" y="124" font-size="9" fill="#33586e" font-family="Arial,sans-serif">ATLANTIC</text>
+        <text x="652" y="124" font-size="9" fill="#33586e" font-family="Arial,sans-serif" text-anchor="end">PACIFIC</text>
+      </svg>
+    </div>
+    <div class="datecheck">
+      <h4>DATE CHECK <span>— NOT TODAY</span></h4>
+      <p><b>&#10007; BepiColombo</b> reached Mercury orbit on <b>21 Nov</b> — five days ago.</p>
+      <p><b>&#10007; Riyadh tower strike</b> that hurt 11 people was on <b>Tue 24 Nov</b>.</p>
+      <p><b>&#10007; France &amp; Germany</b> rejected the EU budget before this week&rsquo;s summit.</p>
+      <p>If it did not happen on 26 November, it is not on this page.</p>
+    </div>
+  </div>
+
+  <div class="briefs">
+    <h4>ALSO ON THURSDAY 26 NOVEMBER <span>— 22 MORE STORIES</span></h4>
+    <div class="cols">
+      <ul>
+        <li><b>14</b> North Korea orders Switzerland to shut its new Pyongyang office.</li>
+        <li><b>15</b> Dozens of nations urge Russia to stop alleged riot-agent use in Ukraine.</li>
+        <li><b>16</b> Murmansk governor held in pre-trial detention in corruption case.</li>
+        <li><b>17</b> Kenya cult leader Mackenzie convicted of new charges.</li>
+        <li><b>18</b> Second US judge blocks Trump&rsquo;s birthright citizenship order.</li>
+        <li><b>19</b> IS attack kills two Syrian security staff in Hasaka.</li>
+        <li><b>20</b> Two oil tankers hit by naval mines in the Strait of Hormuz.</li>
+        <li><b>21</b> Houthis report deaths after Saudi strikes in south-west Yemen.</li>
+        <li><b>22</b> Road crash in Ras Al Khaimah, UAE, kills 11 people.</li>
+        <li><b>23</b> Quake of 5.6 magnitude hits Nepal&rsquo;s Koshi Province.</li>
+        <li><b>24</b> India offers Nepal a &#8377;15,000-crore aid package; Modi meets Merz.</li>
+      </ul>
+      <ul>
+        <li><b>25</b> Colombia marks 10 years since its historic peace accord.</li>
+        <li><b>26</b> Petrobras unveils a $122bn investment plan for Brazil.</li>
+        <li><b>27</b> Venezuela reveals $237.5bn in public debt.</li>
+        <li><b>28</b> US Air Force shows off F-15EX fighters at Kadena, Okinawa.</li>
+        <li><b>29</b> Fed&rsquo;s Beige Book: modest growth, stubborn price pressure.</li>
+        <li><b>30</b> Taiwan shares fall 1,927 points; Sensex drops 1,484.</li>
+        <li><b>31</b> Flipkart chief Kalyan Krishnamurthy to step down in December.</li>
+        <li><b>32</b> Sooryavanshi, 15, smashes 204 off 53 balls against UAE.</li>
+        <li><b>33</b> Chess: Gukesh&ndash;Sindarov world title Game 2 ends in a draw.</li>
+        <li><b>34</b> IPL 2027 auction draws registrations from 1,220 players.</li>
+        <li><b>35</b> Americans mark Thanksgiving; US markets closed for the day.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="foot">
+    <b>Sources: Reuters, AP, AFP, KCNA, The Hindu.</b> &nbsp;•&nbsp; Illustrations are original flat drawings, not photographs. &nbsp;•&nbsp; All 35 stories reported Thursday 26 November 2026. &nbsp;•&nbsp; THE WORLD — a make.fun daily front page.
+  </div>
+
+</div></body></html>
